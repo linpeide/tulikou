@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: white;
+}
+
+.icon {
+    position: fixed;
+    display: block;
+    width: 33px;
+    height: 135px;
+    margin-left: 1316px;
+    margin-top: 250px;
+    background: url(../image/icon.png);
+    background-position: -367px 0px;
+}
+
+.icon:hover {
+    background-position: -334px 0px;
+}
+
+header {
+    height: 110px;
+    position: relative;
+    border-bottom: #666;
+    box-shadow: 0px 0px 4px 0px #666;
+    opacity: 0.9;
+}
+
+#p1 {
+    width: 148px;
+    height: 50px;
+    margin: 20px 0px 0px 64px;
+}
+
+.logo-title {
+    height: 34px;
+    line-height: 34px;
+    font-size: 24px;
+    color: #333;
+    margin-top: -40px;
+    margin-left: 230px;
+}
+
+p {
+    float: right;
+    margin: -10px 80px 0px 0px;
+    font-size: 16px;
+    color: #999;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #666;
+}
+
+.contain {
+    width: 1210px;
+    height: 404px;
+    margin: 80px auto;
+    position: relative;
+}
+
+.contain-1 {
+    margin-left: 20px;
+    margin-top: -28px;
+}
+
+#pic {
+    width: 410px;
+    position: absolute;
+    margin: 0px 0px 0px 380px;
+}
+
+.contain select {
+    position: absolute;
+    display: line-block;
+    width: 100px;
+    height: 50px;
+    margin: 100px 0px 0px 380px;
+}
+
+input,
+button {
+    margin: 100px 0px 0px 480px;
+    width: 300px;
+    height: 46px;
+}
+
+span {
+    width: 256px;
+    height: 18px;
+    margin-left: -364px;
+    margin-top: 154px;
+    position: absolute;
+    float: left;
+}
+
+#ss {
+    width: 17px;
+    height: 18px;
+    background: url(../image/icon.png) no-repeat;
+    background-position: 0px -99px;
+    margin-left: 405px;
+    margin-top: 3px;
+    position: absolute;
+}
+
+#input-2,
+#input-3 {
+    margin: 38px 0px 0px 380px;
+    width: 400px;
+    background: white;
+    border: 1px solid #999;
+    opacity: 0.5;
+}
+
+#input-3 {
+    height: 54px;
+    border: 1px solid red;
+    background: red;
+    color: white;
+    opacity: 0.8;
+}
+
+#aa,
+#aa-1 {
+    width: 26px;
+    height: 26px;
+    margin-left: 380px;
+    margin-top: 25px;
+    position: relative;
+    background: url(../image/zhuce-icon.jpg) no-repeat;
+    background-position: 2px -160px;
+}
+
+#aa-1 {
+    margin-left: 660px;
+    margin-top: -28px;
+    background-position: -39px -160px;
+}
+
+div #b-1 {
+    position: absolute;
+    margin-left: 420px;
+    margin-top: -26px;
+}
+
+#b {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -24px;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+}
+
+.links,
+.down {
+    width: 990px;
+    height: 20px;
+    margin: 20px 0px 0px 179px;
+}
+
+.links-cont {
+    text-align: center;
+    margin: 0px 0px 0px -20px;
+}
+
+a {
+    color: #666;
+}
+
+.down {
+    margin: 0px;
+}
+
+.down li {
+    text-align: center;
+    color: #666;
+}
+
+
+.bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #777;
+    opacity: 0.7;
+    z-index: 1000;
+}
+
+#show {
+    width: 955px;
+    height: 604px;
+    background: white;
+    position: absolute;
+    left: 205px;
+    top: 32px;
+    z-index: 1001;
+    display: none;
+}
+
+.show-1 {
+    width: 954px;
+    height: 31px;
+    border: 1px solid #777;
+    background: white;
+    opacity: 0.5;
+}
+
+#wz {
+    line-height: 21px;
+    margin-top: 5px;
+    color: black;
+}
+
+#cha {
+    position: absolute;
+    height: 31px;
+    width: 35px;
+    margin: -32px 0px 0px 920px;
+    background: url(../image/x.png) no-repeat;
+    background-position: 9px 7px;
+    border: none;
+}
+
+.sss {
+    width: 953px;
+    height: 514px;
+    border: 1px solid blue;
+    margin-top: -2px;
+    overflow-y: scroll;
+}
+
+#ty {
+    width: 200px;
+    height: 50px;
+    margin-left: 180px;
+    margin-top: 4px;
+    background: red;
+    color: white;
+}
+
+#qx {
+    width: 200px;
+    height: 50px;
+    margin-left: 180px;
+    margin-top: 4px;
+    background: #999;
+    opacity: 0.6;
+}

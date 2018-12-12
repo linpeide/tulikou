@@ -1,0 +1,360 @@
+ * {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ body {
+     width: 100%;
+     height: 100%;
+ }
+
+ header {
+     width: 1300px;
+     height: 74px;
+ }
+
+ #logo {
+     width: 170px;
+     height: 60px;
+     margin: 10px 20px 20px 180px;
+ }
+
+ #l-icon {
+     display: block;
+     width: 110px;
+     height: 40px;
+     font: 25px Arial, Verdana, 宋体;
+     font-weight: bold;
+     color: #666;
+     margin: -63px 20px 20px 380px;
+ }
+
+ #q-cion {
+     float: right;
+     position: absolute;
+     top: 55px;
+     right: 290px;
+ }
+
+ p {
+     float: right;
+     position: absolute;
+     top: 53px;
+     right: 178px;
+     font-size: 12px;
+     color: #999;
+ }
+
+ .tips-wrapper {
+     width: 100%;
+     height: 30px;
+     background: #fff8f0;
+ }
+
+ .cont-wrapper {
+     width: 1366px;
+     height: 15px;
+     position: absolute;
+     margin-top: 7px;
+ }
+
+ .aa,
+ .bb {
+     display: block;
+     position: absolute;
+     width: 16px;
+     height: 16px;
+     background: url(../image/icon-tips.png);
+     margin: 0px 0px 0px 260px;
+ }
+
+ .tips-inner {
+     display: line-block;
+     width: 781px;
+     height: 15px;
+     margin: 0px 0px 0px 20px;
+ }
+
+ .tips-inner h6 {
+     display: line-block;
+     height: 10px;
+     color: #999;
+ }
+
+ a {
+     text-decoration: none;
+     color: black;
+ }
+
+ .login-banner {
+     width: 100%;
+     height: 475px;
+     background: url(../image/1.jpg) no-repeat;
+     background-size: 1359px 474px;
+ }
+
+ .cont {
+     width: 346px;
+     height: 420px;
+     background: white;
+     float: right;
+     margin: 10px 140px 0px 0px;
+ }
+
+ .cont-1 {
+     width: 346px;
+     height: 39px;
+     border: 1px solid #999;
+     border-bottom: white;
+     background: #fff8f0;
+ }
+
+ .cont-1 .inner {
+     width: 346px;
+     height: 19px;
+     margin: 9px 0px 0px 0px;
+ }
+
+ .inner .bb {
+     width: 19px;
+     height: 20px;
+     background: url(../image/icon-tips.png) no-repeat;
+     margin: 0px 0px 0px 35px;
+ }
+
+ h5 {
+     font-size: 10px;
+     margin: 10px 0px 0px 60px;
+     color: #999;
+ }
+
+ .cont .cont-2 {
+     float: left;
+     width: 170px;
+     height: 62px;
+     border: 1px solid #777;
+     opacity: 0.8;
+     display: block;
+ }
+
+ .cont .cont-2 li {
+     font-size: 20px;
+     line-height: 60px;
+     text-align: center;
+     color: red;
+     font-family: "microsoft yahei";
+ }
+
+ .ewm {
+     position: relative;
+     display: block;
+     width: 145px;
+     height: 145px;
+     margin: 40px 95px;
+     background: url(../image/show.png);
+ }
+
+ #l {
+     position: absolute;
+     font-size: 10px;
+     margin: -40px 0px 0px 100px;
+     color: black;
+ }
+
+ .cont .cont-3 {
+     float: right;
+     width: 173px;
+     height: 62px;
+     border: 1px solid #999;
+     opacity: 0.8;
+     display: block;
+     position: relative;
+     top: -64px;
+ }
+
+ .cont .cont-3 li {
+     font-size: 20px;
+     line-height: 60px;
+     text-align: center;
+ }
+
+ ul {
+     width: 346px;
+     height: 34px;
+     position: absolute;
+     top: 40px;
+     text-align: center;
+     margin: 420px 0px 0px 0px;
+ }
+
+ .qr,
+ .qt,
+ .qa {
+     width: 27px;
+     height: 24px;
+     border-radius: 50%;
+     background: url(../image/qr-coagent.png) no-repeat;
+     position: relative;
+     margin: 6px 0px 0px 46px;
+ }
+
+ .qt {
+     margin: -26px 0px 0px 125px;
+     background-position: -27px 0px;
+ }
+
+ .qa {
+     background-position: -52px 0px;
+     margin: -24px 0px 0px 210px;
+ }
+
+ dl {
+     margin: -20px 0px 0px -150px;
+ }
+
+ dl-1 {
+     position: absolute;
+     margin: -20px 0px 0px -10px;
+ }
+
+ dl-2 {
+     position: absolute;
+     margin: -20px 0px 0px 75px;
+ }
+
+ input {
+     height: 38px;
+     width: 258px;
+ }
+
+ #input-1 {
+     float: right;
+     margin: -18px 20px 0px 0px;
+ }
+
+ #input-2 {
+     float: right;
+     margin: 10px 20px 0px -38px;
+ }
+
+ #dd,
+ #dd-1 {
+     width: 38px;
+     height: 40px;
+     border: 1px solid #777;
+     opacity: 0.8;
+     position: absolute;
+     margin: 110px 0px 0px 24px;
+     background: url(../image/pwd-icons-new.png) no-repeat;
+ }
+
+ #dd-1 {
+     background-position: -47px 1px;
+     margin: 162px 0px 0px 24px;
+ }
+
+ #dd-2 {
+     position: absolute;
+     margin: 220px 0px 0px 250px;
+ }
+
+ #dd-2:hover {
+
+     text-decoration: underline;
+     color: red;
+ }
+
+ .go {
+     width: 300px;
+     height: 45px;
+     position: absolute;
+     border: 1px solid red;
+     margin: 260px 0px 0px 25px;
+     background: red;
+     cursor: pointer;
+ }
+
+ .go li {
+     font-size: 25px;
+     height: 45px;
+     line-height: 45px;
+     text-align: center;
+     color: white;
+ }
+
+ .foot-1 {
+     width: 346px;
+     height: 54px;
+     position: relative;
+     margin-top: 326px;
+ }
+
+ .tr,
+ .tt,
+ .ta {
+     width: 22px;
+     height: 22px;
+     border-radius: 50%;
+     background: url(../image/QQ-weixin.png) no-repeat;
+     position: relative;
+     background-position: 1px 2px;
+     margin: 16px 0px 0px 24px;
+ }
+
+ .tt {
+     margin: -22px 0px 0px 98px;
+     background-position: -18px 2px;
+ }
+
+ .ta {
+     float: right;
+     background: url(../image/pwd-icons-new.png) no-repeat;
+     background-position: -101px -71px;
+     margin: -24px 96px 0px 0px;
+ }
+
+ dl-3 {
+     position: absolute;
+     margin: -24px 0px 0px 50px;
+ }
+
+ dl-4 {
+     position: absolute;
+     margin: -22px 0px 0px 124px;
+ }
+
+ dl-5 {
+     position: absolute;
+     margin: -22px 0px 0px 258px;
+ }
+
+ footer {
+     width: 100%;
+     height: 80px;
+ }
+
+ .links,
+ .down {
+     width: 990px;
+     height: 20px;
+     margin: 20px 0px 0px 179px;
+ }
+
+ .links-cont {
+     text-align: center;
+     margin: 0px 0px 0px -20px;
+ }
+
+ a {
+     color: #666;
+ }
+
+ .down {
+     margin: 0px;
+ }
+
+ .down li {
+     text-align: center;
+     color: #666;
+ }
